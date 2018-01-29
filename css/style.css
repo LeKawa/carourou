@@ -1,0 +1,50 @@
+body {
+  background: black;
+}
+.carousel{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+}
+.carousel li {
+  width: 100%;
+  height: auto;
+  list-style: none;
+  text-align: center;
+}
+.carousel img {
+  /* display: none; */
+}
+img {
+  width: 100%;
+  height: auto;
+  opacity: 0.1;
+
+}
+.carousel img.is-active {
+  /* display: block; */
+  opacity: 1;
+}
+
+.left {
+  width: 50%;
+  height: auto;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  background-color: black;
+}
+.right {
+  width: 50%;
+  color: white;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+  background-color: black;
+}
+.is-active {
+  -webkit-transform: scale(1.2);
+
+  transition-duration: 0.5s;
+}
